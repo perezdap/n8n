@@ -1,0 +1,14 @@
+services:
+  # Services will be added in subsequent tasks
+
+networks:
+  # traefik-public: Network for communication between Traefik and external-facing services (n8n)
+  traefik-public:
+    driver: bridge
+    name: traefik-public
+
+  # n8n-internal: Isolated network for communication between n8n and its database (PostgreSQL)
+  n8n-internal:
+    driver: bridge
+    internal: true
+    name: n8n-internal
