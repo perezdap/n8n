@@ -1,6 +1,6 @@
 # Implementation Plan - Deploy n8n Core Infrastructure
 
-## Phase 1: Host Preparation & Hardening
+## Phase 1: Host Preparation & Hardening [checkpoint: 0f73051]
 - [x] Task: Create `scripts/setup_host.sh` for initial OS updates and dependencies. [50531ac]
     - [ ] Sub-task: Write script to update apt, install curl, git, ufw.
     - [ ] Sub-task: Verify script execution on a test VM or dry-run.
@@ -13,7 +13,7 @@
 - [x] Task: Install & Configure Docker. [c159e43]
     - [ ] Sub-task: Create `scripts/install_docker.sh` to install Docker Engine & Compose plugin (official repo).
     - [ ] Sub-task: Configure non-root user access for Docker.
-- [ ] Task: Conductor - User Manual Verification 'Host Preparation & Hardening' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Host Preparation & Hardening' (Protocol in workflow.md) [0f73051]
 
 ## Phase 2: Directory Structure & Network
 - [ ] Task: Create project directory structure.
