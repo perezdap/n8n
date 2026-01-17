@@ -46,11 +46,11 @@
     - [x] Create actual `.env` (gitignored) for local deployment.
 - [x] Task: Conductor - User Manual Verification 'n8n Application Deployment' (Protocol in workflow.md) [ab5595c]
 
-## Phase 6: Final Verification & Documentation
+## Phase 6: Final Verification & Documentation [checkpoint: b8b1b2c]
 - [x] Task: Full Deployment Test. [manual]
-    - [ ] Sub-task: Run `docker compose up -d`.
-    - [ ] Sub-task: Verify logs for all containers.
-    - [ ] Sub-task: Verify external HTTPS access.
+    - [x] Run `docker compose up -d`.
+    - [x] Verify logs for all containers.
+    - [x] Verify external HTTPS access.
 - [x] Task: Update Documentation. [cd6d633]
-    - [ ] Sub-task: Update `README.md` with deployment instructions.
-- [ ] Task: Conductor - User Manual Verification 'Final Verification & Documentation' (Protocol in workflow.md)
+    - [x] Update `README.md` with deployment instructions.
+- [x] Task: Conductor - User Manual Verification 'Final Verification & Documentation' (Protocol in workflow.md) [b8b1b2c]
