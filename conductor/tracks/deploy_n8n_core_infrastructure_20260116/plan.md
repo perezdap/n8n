@@ -36,15 +36,15 @@
     - [x] Define volume for persistence.
 - [x] Task: Conductor - User Manual Verification 'Database (PostgreSQL)' (Protocol in workflow.md) [719c209]
 
-## Phase 5: n8n Application Deployment
+## Phase 5: n8n Application Deployment [checkpoint: ab5595c]
 - [x] Task: Define n8n Service. [2ab7de5]
-    - [ ] Sub-task: Add `n8n` service to `docker/docker-compose.yml`.
-    - [ ] Sub-task: Configure environment variables (`DB_TYPE`, `DB_POSTGRESDB_...`, `N8N_RUNNERS_ENABLED`, `N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS`).
-    - [ ] Sub-task: Configure Traefik labels for n8n routing (Host(`n8n.yourdomain.com`), TLS).
+    - [x] Add `n8n` service to `docker/docker-compose.yml`.
+    - [x] Configure environment variables (`DB_TYPE`, `DB_POSTGRESDB_...`, `N8N_RUNNERS_ENABLED`, `N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS`).
+    - [x] Configure Traefik labels for n8n routing (Host(`n8n.yourdomain.com`), TLS).
 - [x] Task: Create Environment Configuration. [e1eb6e8]
-    - [ ] Sub-task: Create `.env.example` with all required variables.
-    - [ ] Sub-task: Create actual `.env` (gitignored) for local deployment.
-- [ ] Task: Conductor - User Manual Verification 'n8n Application Deployment' (Protocol in workflow.md)
+    - [x] Create `.env.example` with all required variables.
+    - [x] Create actual `.env` (gitignored) for local deployment.
+- [x] Task: Conductor - User Manual Verification 'n8n Application Deployment' (Protocol in workflow.md) [ab5595c]
 
 ## Phase 6: Final Verification & Documentation
 - [ ] Task: Full Deployment Test.
