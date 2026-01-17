@@ -22,12 +22,12 @@
     - [x] Draft `docker/docker-compose.yml` with `networks` section (e.g., `traefik-public`, `n8n-internal`).
 - [x] Task: Conductor - User Manual Verification 'Directory Structure & Network' (Protocol in workflow.md) [610385d]
 
-## Phase 3: Traefik Proxy Setup
+## Phase 3: Traefik Proxy Setup [checkpoint: 652be30]
 - [x] Task: Configure Traefik Static Configuration. [8f7df07]
-    - [ ] Sub-task: Create `traefik/traefik.yml` (or command args in compose) for EntryPoints (80, 443) and ACME (Let's Encrypt).
+    - [x] Create `traefik/traefik.yml` (or command args in compose) for EntryPoints (80, 443) and ACME (Let's Encrypt).
 - [x] Task: Define Traefik Service in Docker Compose. [9afe52b]
-    - [ ] Sub-task: Add `traefik` service to `docker/docker-compose.yml` with ports, volumes (docker.sock, letsencrypt), and network.
-- [ ] Task: Conductor - User Manual Verification 'Traefik Proxy Setup' (Protocol in workflow.md)
+    - [x] Add `traefik` service to `docker/docker-compose.yml` with ports, volumes (docker.sock, letsencrypt), and network.
+- [x] Task: Conductor - User Manual Verification 'Traefik Proxy Setup' (Protocol in workflow.md) [652be30]
 
 ## Phase 4: Database (PostgreSQL)
 - [ ] Task: Define PostgreSQL Service.
