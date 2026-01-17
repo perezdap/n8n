@@ -23,7 +23,7 @@
 - [x] Task: Conductor - User Manual Verification 'Directory Structure & Network' (Protocol in workflow.md) [610385d]
 
 ## Phase 3: Traefik Proxy Setup
-- [ ] Task: Configure Traefik Static Configuration.
+- [x] Task: Configure Traefik Static Configuration. [8f7df07]
     - [ ] Sub-task: Create `traefik/traefik.yml` (or command args in compose) for EntryPoints (80, 443) and ACME (Let's Encrypt).
 - [ ] Task: Define Traefik Service in Docker Compose.
     - [ ] Sub-task: Add `traefik` service to `docker/docker-compose.yml` with ports, volumes (docker.sock, letsencrypt), and network.
