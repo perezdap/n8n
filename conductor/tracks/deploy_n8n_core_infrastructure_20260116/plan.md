@@ -47,10 +47,10 @@
 - [x] Task: Conductor - User Manual Verification 'n8n Application Deployment' (Protocol in workflow.md) [ab5595c]
 
 ## Phase 6: Final Verification & Documentation
-- [ ] Task: Full Deployment Test.
+- [x] Task: Full Deployment Test. [manual]
     - [ ] Sub-task: Run `docker compose up -d`.
     - [ ] Sub-task: Verify logs for all containers.
     - [ ] Sub-task: Verify external HTTPS access.
-- [ ] Task: Update Documentation.
+- [x] Task: Update Documentation. [cd6d633]
     - [ ] Sub-task: Update `README.md` with deployment instructions.
 - [ ] Task: Conductor - User Manual Verification 'Final Verification & Documentation' (Protocol in workflow.md)
