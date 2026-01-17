@@ -16,7 +16,7 @@
 - [x] Task: Conductor - User Manual Verification 'Host Preparation & Hardening' (Protocol in workflow.md) [0f73051]
 
 ## Phase 2: Directory Structure & Network
-- [ ] Task: Create project directory structure.
+- [x] Task: Create project directory structure. [ee71bda]
     - [ ] Sub-task: Create `docker/`, `traefik/`, `scripts/` directories as per Guidelines.
 - [ ] Task: Define Docker Networks.
     - [ ] Sub-task: Draft `docker/docker-compose.yml` with `networks` section (e.g., `traefik-public`, `n8n-internal`).
