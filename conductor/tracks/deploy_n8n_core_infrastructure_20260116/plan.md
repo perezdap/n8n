@@ -37,7 +37,7 @@
 - [x] Task: Conductor - User Manual Verification 'Database (PostgreSQL)' (Protocol in workflow.md) [719c209]
 
 ## Phase 5: n8n Application Deployment
-- [ ] Task: Define n8n Service.
+- [x] Task: Define n8n Service. [2ab7de5]
     - [ ] Sub-task: Add `n8n` service to `docker/docker-compose.yml`.
     - [ ] Sub-task: Configure environment variables (`DB_TYPE`, `DB_POSTGRESDB_...`, `N8N_RUNNERS_ENABLED`, `N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS`).
     - [ ] Sub-task: Configure Traefik labels for n8n routing (Host(`n8n.yourdomain.com`), TLS).
