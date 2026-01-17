@@ -18,7 +18,7 @@
 ## Phase 2: Directory Structure & Network
 - [x] Task: Create project directory structure. [ee71bda]
     - [ ] Sub-task: Create `docker/`, `traefik/`, `scripts/` directories as per Guidelines.
-- [ ] Task: Define Docker Networks.
+- [x] Task: Define Docker Networks. [860c335]
     - [ ] Sub-task: Draft `docker/docker-compose.yml` with `networks` section (e.g., `traefik-public`, `n8n-internal`).
 - [ ] Task: Conductor - User Manual Verification 'Directory Structure & Network' (Protocol in workflow.md)
 
