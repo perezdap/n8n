@@ -7,7 +7,7 @@
 - [x] Task: Configure UFW Firewall. [dbd21db]
     - [ ] Sub-task: Create `scripts/setup_firewall.sh` to allow 80, 443, 2222/tcp and enable UFW.
     - [ ] Sub-task: Verify UFW status and rules.
-- [ ] Task: Harden SSH Configuration.
+- [x] Task: Harden SSH Configuration. [7c23044]
     - [ ] Sub-task: Create `scripts/secure_ssh.sh` to backup `sshd_config`, change Port to 2222, disable `PermitRootLogin`, `PasswordAuthentication`.
     - [ ] Sub-task: **CRITICAL:** Manual verification step to ensure SSH access works on new port before closing session.
 - [ ] Task: Install & Configure Docker.
