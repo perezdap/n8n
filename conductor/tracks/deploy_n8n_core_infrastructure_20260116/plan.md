@@ -30,7 +30,7 @@
 - [x] Task: Conductor - User Manual Verification 'Traefik Proxy Setup' (Protocol in workflow.md) [652be30]
 
 ## Phase 4: Database (PostgreSQL)
-- [ ] Task: Define PostgreSQL Service.
+- [x] Task: Define PostgreSQL Service. [5231e40]
     - [ ] Sub-task: Add `postgres` service to `docker/docker-compose.yml`.
     - [ ] Sub-task: Configure environment variables for User/DB/Password (referencing `.env`).
     - [ ] Sub-task: Define volume for persistence.
