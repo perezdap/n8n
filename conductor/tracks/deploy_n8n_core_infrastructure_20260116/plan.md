@@ -15,12 +15,12 @@
     - [ ] Sub-task: Configure non-root user access for Docker.
 - [x] Task: Conductor - User Manual Verification 'Host Preparation & Hardening' (Protocol in workflow.md) [0f73051]
 
-## Phase 2: Directory Structure & Network
+## Phase 2: Directory Structure & Network [checkpoint: 610385d]
 - [x] Task: Create project directory structure. [ee71bda]
-    - [ ] Sub-task: Create `docker/`, `traefik/`, `scripts/` directories as per Guidelines.
+    - [x] Create `docker/`, `traefik/`, `scripts/` directories as per Guidelines.
 - [x] Task: Define Docker Networks. [860c335]
-    - [ ] Sub-task: Draft `docker/docker-compose.yml` with `networks` section (e.g., `traefik-public`, `n8n-internal`).
-- [ ] Task: Conductor - User Manual Verification 'Directory Structure & Network' (Protocol in workflow.md)
+    - [x] Draft `docker/docker-compose.yml` with `networks` section (e.g., `traefik-public`, `n8n-internal`).
+- [x] Task: Conductor - User Manual Verification 'Directory Structure & Network' (Protocol in workflow.md) [610385d]
 
 ## Phase 3: Traefik Proxy Setup
 - [ ] Task: Configure Traefik Static Configuration.
