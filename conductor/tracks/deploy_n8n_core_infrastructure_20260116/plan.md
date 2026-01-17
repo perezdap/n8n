@@ -1,7 +1,7 @@
 # Implementation Plan - Deploy n8n Core Infrastructure
 
 ## Phase 1: Host Preparation & Hardening
-- [ ] Task: Create `scripts/setup_host.sh` for initial OS updates and dependencies.
+- [x] Task: Create `scripts/setup_host.sh` for initial OS updates and dependencies. [50531ac]
     - [ ] Sub-task: Write script to update apt, install curl, git, ufw.
     - [ ] Sub-task: Verify script execution on a test VM or dry-run.
 - [ ] Task: Configure UFW Firewall.
