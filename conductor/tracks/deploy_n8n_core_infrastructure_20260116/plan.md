@@ -29,12 +29,12 @@
     - [x] Add `traefik` service to `docker/docker-compose.yml` with ports, volumes (docker.sock, letsencrypt), and network.
 - [x] Task: Conductor - User Manual Verification 'Traefik Proxy Setup' (Protocol in workflow.md) [652be30]
 
-## Phase 4: Database (PostgreSQL)
+## Phase 4: Database (PostgreSQL) [checkpoint: 719c209]
 - [x] Task: Define PostgreSQL Service. [5231e40]
-    - [ ] Sub-task: Add `postgres` service to `docker/docker-compose.yml`.
-    - [ ] Sub-task: Configure environment variables for User/DB/Password (referencing `.env`).
-    - [ ] Sub-task: Define volume for persistence.
-- [ ] Task: Conductor - User Manual Verification 'Database (PostgreSQL)' (Protocol in workflow.md)
+    - [x] Add `postgres` service to `docker/docker-compose.yml`.
+    - [x] Configure environment variables for User/DB/Password (referencing `.env`).
+    - [x] Define volume for persistence.
+- [x] Task: Conductor - User Manual Verification 'Database (PostgreSQL)' (Protocol in workflow.md) [719c209]
 
 ## Phase 5: n8n Application Deployment
 - [ ] Task: Define n8n Service.
