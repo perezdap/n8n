@@ -41,7 +41,7 @@
     - [ ] Sub-task: Add `n8n` service to `docker/docker-compose.yml`.
     - [ ] Sub-task: Configure environment variables (`DB_TYPE`, `DB_POSTGRESDB_...`, `N8N_RUNNERS_ENABLED`, `N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS`).
     - [ ] Sub-task: Configure Traefik labels for n8n routing (Host(`n8n.yourdomain.com`), TLS).
-- [ ] Task: Create Environment Configuration.
+- [x] Task: Create Environment Configuration. [e1eb6e8]
     - [ ] Sub-task: Create `.env.example` with all required variables.
     - [ ] Sub-task: Create actual `.env` (gitignored) for local deployment.
 - [ ] Task: Conductor - User Manual Verification 'n8n Application Deployment' (Protocol in workflow.md)
