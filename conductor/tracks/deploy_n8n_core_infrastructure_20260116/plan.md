@@ -4,7 +4,7 @@
 - [x] Task: Create `scripts/setup_host.sh` for initial OS updates and dependencies. [50531ac]
     - [ ] Sub-task: Write script to update apt, install curl, git, ufw.
     - [ ] Sub-task: Verify script execution on a test VM or dry-run.
-- [ ] Task: Configure UFW Firewall.
+- [x] Task: Configure UFW Firewall. [dbd21db]
     - [ ] Sub-task: Create `scripts/setup_firewall.sh` to allow 80, 443, 2222/tcp and enable UFW.
     - [ ] Sub-task: Verify UFW status and rules.
 - [ ] Task: Harden SSH Configuration.
