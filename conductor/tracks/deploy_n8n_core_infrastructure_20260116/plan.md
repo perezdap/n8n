@@ -25,7 +25,7 @@
 ## Phase 3: Traefik Proxy Setup
 - [x] Task: Configure Traefik Static Configuration. [8f7df07]
     - [ ] Sub-task: Create `traefik/traefik.yml` (or command args in compose) for EntryPoints (80, 443) and ACME (Let's Encrypt).
-- [ ] Task: Define Traefik Service in Docker Compose.
+- [x] Task: Define Traefik Service in Docker Compose. [9afe52b]
     - [ ] Sub-task: Add `traefik` service to `docker/docker-compose.yml` with ports, volumes (docker.sock, letsencrypt), and network.
 - [ ] Task: Conductor - User Manual Verification 'Traefik Proxy Setup' (Protocol in workflow.md)
 
