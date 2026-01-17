@@ -1,5 +1,22 @@
 services:
-  # Services will be added in subsequent tasks
+  # traefik-proxy: Reverse proxy and SSL management
+  traefik-proxy:
+    image: traefik:v3
+    container_name: traefik-proxy
+    restart: always
+    security_opt:
+      - no-new-privileges:true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./../traefik/traefik.yml:/etc/traefik/traefik.yml:ro
+      - ./../traefik/acme:/etc/traefik/acme
+    networks:
+      - traefik-public
+
 
 networks:
   # traefik-public: Network for communication between Traefik and external-facing services (n8n)
