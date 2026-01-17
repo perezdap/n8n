@@ -10,7 +10,7 @@
 - [x] Task: Harden SSH Configuration. [7c23044]
     - [ ] Sub-task: Create `scripts/secure_ssh.sh` to backup `sshd_config`, change Port to 2222, disable `PermitRootLogin`, `PasswordAuthentication`.
     - [ ] Sub-task: **CRITICAL:** Manual verification step to ensure SSH access works on new port before closing session.
-- [ ] Task: Install & Configure Docker.
+- [x] Task: Install & Configure Docker. [c159e43]
     - [ ] Sub-task: Create `scripts/install_docker.sh` to install Docker Engine & Compose plugin (official repo).
     - [ ] Sub-task: Configure non-root user access for Docker.
 - [ ] Task: Conductor - User Manual Verification 'Host Preparation & Hardening' (Protocol in workflow.md)
